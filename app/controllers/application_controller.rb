@@ -34,6 +34,7 @@ class ApplicationController < Sinatra::Base
 
 
   get "/login" do
+    binding.pry
     erb :login
   end
 
